@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil NUCBA Lucas Fiscella</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="perfil">
+    <h1>Lucas Antonio Fiscella</h1>
+    <div class="image"><img src="perfil/noa.jpg" alt="fotoperfil" width="200" height="250"></img></div>
+    <ul>
+      <li>Edad: 27 Años</li>
+      <li>Localidad: Morón, Buenos Aires, Argentina.</li>
+      <li>Email: lucasfiscella1@gmail.com</li>
+    </ul>
+    <p>Actualmente estoy trabajando en La Casa Del Audio como auxiliar de depósito, y tratando de dar lo mejor para
+      poder
+      estar al tanto de todas las clases que se vengan. Tengo conocimientos de HTML,CSS y un poco de JS.</p>
+  </div>
+  <div class="contact_form">
+    <div class="formulario">
+      <form action="">
+        <h2>CONTACTAME!</h2>
+        <h3>Formulario de Contacto</h3>
+        <p>
+          <label for="nombre" class="colocar_nombre">Nombre:
+            <span class="obligatorio">*</span>
+          </label>
+          <input type="text" name="nombre" required="obligatorio" placeholder="Ingresa tu nombre">
+        </p>
+        <br>
+        <p>
+          <label for="apellido" class="colocar_apellido">Apellido: <span class="obligatorio">*</span></label>
+          <input type="text" name="apellido" required="obligatorio" placeholder="Ingresa tu apellido">
+        </p>
+        <br>
+        <p>
+          <label for="email" class="colocar_email">Email:<span class="obligatorio">*</span></label>
+          <input type="email" name="email" required="obligatorio" placeholder="Ingresa tu email">
+        </p>
+        <br>
+        <p>
+          <label for="telefono" class="colocar_telefono">Teléfono:<span class="obligatorio">*</span> </label>
+          <input type="tel" name="tel" required="obligatorio" placeholder="Ingresa tu teléfono">
+        </p>
+        <br>
+        <p>
+          <label for="edad" class="colocar_edad">Edad:<span class="obligatorio">*</span></label>
+          <input type="number" name="edad" required="obligatorio" placeholder="Ingresa tu edad">
+        </p>
+        <h4>Elegí la opción que corresponda</h4>
+        <p>Me interesa:</p>
+        <p>
+          <label for="interes" class="intereses">Tus Soft Skills</label>
+          <input type="checkbox" name="interes" required="obligatorio">
+          <br>
+          <label for="interes" class="intereses">Tus Hard Skills </label>
+          <input type="checkbox" name="interes" required="obligatorio">
+          <br>
+          <label for="interes" class="intereses">Nada Sos Malisimo</label>
+          <input type="checkbox" name="interes" required="obligatorio">
+        </p>
+        <h4>Elegí la opción que corresponda</h4>
+        <p>Me dedico a:</p>
+        <p>
+          <label for="hobby" class="hobbies">Soy Front-End Developer</label>
+          <input type="radio" name="hobby" required="obligatorio">
+          <br>
+          <label for="hobby" class="hobbies">Soy Back-End Developer</label>
+          <input type="radio" name="hobby" required="obligatorio">
+          <br>
+          <label for="hobby" class="hobbies">Soy Full-Stack Developer</label>
+          <input type="radio" name="hobby" required="obligatorio">
+        </p>
+        <br>
+        <p>
+          <label for="mensaje" class="colocar_mensaje">Mensaje
+            <span class="obligatorio">*</span>
+          </label>
+          <textarea name="mensaje" class="texto_mensaje" required="obligatorio"
+            placeholder="Deja aquí tu comentario..."></textarea>
+        </p>
+        <button type="submit" name="enviar_formulario" id="enviar">
+          <p>Enviar</p>
+        </button>
+        <p class="aviso">
+          <span class="obligatorio"> * </span>los campos son obligatorios.
+        </p>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
